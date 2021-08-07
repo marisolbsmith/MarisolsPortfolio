@@ -5,7 +5,8 @@
 body {
     background-image: url("C:\Users\maris\OneDrive\Pictures\codingpic.jpeg");
     background-color: #cccccc;
-    margin: 0
+    margin: 0;
+    height: 250px;
 }
 
 header, h2 {
@@ -38,4 +39,54 @@ section h1 h2 {
 section h3 {
     text-align: right;
     display: inline;
+}
+.github {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    color: rgb(247, 247, 247);
+    width: 300px;
+    height: 200px;
+}
+.github:hover {
+    background-color: rgb(73, 138, 175);
+}
+
+.linkedin:hover {
+    background-color:rgb(73, 138, 175) ;
+}
+.linkedin {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    color: rgb(247, 247, 247);
+    width: 300px;
+    height: 200px;
+}
+/* Tablets */
+@media screen and (max-width: 992px) {
+    * {
+      background: #104b83;
+    }
+}
+  
+  /* Large smartphones */
+@media screen and (max-width: 768px) {
+    main {
+      background-color: #9385bb;
+    }
+}
+  
+  
+  /* Small smartphones  */
+@media screen and (max-width: 576px) {
+    main {
+  background-color: #0f1318;
+    }
 }

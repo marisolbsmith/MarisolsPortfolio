@@ -1,1 +1,2 @@
 # MarisolsPortfolio
+Creating this portfolio to show a part of me and the skills that I have accumalated in this short time. I included a link to my Linkedin and Github, also a picture to put a face to this portfolio. Although it is simple and I would prefer to make a few changes to make this look a little more advanced I am happy with how it came out and how I have implememnted the tools we have learned in a very basic but exicutional way.
